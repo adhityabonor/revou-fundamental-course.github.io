@@ -5,7 +5,7 @@ function convertCelsiusToFahrenheit() {
     if (isNaN(celsius) || celsius.trim() === '') {
         document.getElementById('outputFahrenheit').value = "Error";
         document.getElementById('formula').value = "Error";
-        alert('Input invalid (Cek kembali input anda)');
+        alert('Input Tidak Valid (Periksa kembali input anda)');
         return;
     }
     celsius = parseFloat(celsius);
@@ -20,7 +20,7 @@ function convertFahrenheitToCelsius() {
     if (isNaN(fahrenheit) || fahrenheit.trim() === '') {
         document.getElementById('inputCelcius').value = "Error";
         document.getElementById('formula').value = "Error";
-        alert('Input invalid (Cek kembali input anda)');
+        alert('Input Tidak Valid (Periksa kembali input anda)');
         return;
     }
     fahrenheit = parseFloat(fahrenheit);
@@ -44,6 +44,3 @@ document.getElementById('convertReverse').addEventListener('click', convertFahre
 
 // Tambahkan event listener ke tombol reset
 document.getElementById('resetButton').addEventListener('click', resetValues);
-
-//Dibuat oleh Raffy Ahmad Jaliyyan//
-//SAYA SANGAT MENGHARGAI ANDA JIKA ANDA TIDAK COPY-PASTE PROJECT SAYA TANPA IZIN//
