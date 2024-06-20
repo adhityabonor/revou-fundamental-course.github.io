@@ -3,8 +3,8 @@
 function convertCelsiusToFahrenheit() {
     var celsius = document.getElementById('inputCelcius').value;
     if (isNaN(celsius) || celsius.trim() === '') {
-        document.getElementById('outputFahrenheit').value = "Error";
-        document.getElementById('formula').value = "Error";
+        document.getElementById('outputFahrenheit').value = "Not Working";
+        document.getElementById('formula').value = "Not Working";
         alert('Input Tidak Valid (Periksa kembali input anda)');
         return;
     }
@@ -18,8 +18,8 @@ function convertCelsiusToFahrenheit() {
 function convertFahrenheitToCelsius() {
     var fahrenheit = document.getElementById('outputFahrenheit').value;
     if (isNaN(fahrenheit) || fahrenheit.trim() === '') {
-        document.getElementById('inputCelcius').value = "Error";
-        document.getElementById('formula').value = "Error";
+        document.getElementById('inputCelcius').value = "Not Working";
+        document.getElementById('formula').value = "Not Working";
         alert('Input Tidak Valid (Periksa kembali input anda)');
         return;
     }
